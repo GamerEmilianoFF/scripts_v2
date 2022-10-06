@@ -1,8 +1,3 @@
- local tecla = Enum.KeyCode.K
-        local lol = game:GetService("UserInputService")
-        
-        lol.InputBegan:Connect(function(key)
-                if key.KeyCode == tecla then
 
         pcall(function()
             game.Players.LocalPlayer.Character.Head.Neck:Destroy()
@@ -27,6 +22,6 @@ game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
                 wait(0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
             
         end)
-             end
+             
 
-        end)
+       
