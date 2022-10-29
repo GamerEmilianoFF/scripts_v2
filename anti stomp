@@ -1,3 +1,11 @@
+game.Players.LocalPlayer.Character.Humanoid.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Humanoid.Position.X,
+game.Players.LocalPlayer.Character.Humanoid.Position.Y-10,
+game.Players.LocalPlayer.Character.Humanoid.Position.Z)
+game.Players.LocalPlayer.Character.Humanoid.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Humanoid.Position.X,
+game.Players.LocalPlayer.Character.Humanoid.Position.Y-10,
+game.Players.LocalPlayer.Character.Humanoid.Position.Z)
+
+
 local plr = game.Players.LocalPlayer
 	plr.Character.Head:BreakJoints()
 	plr.Character.Head.Position = Vector3.new(0, 999999999999, 0)
@@ -6,3 +14,15 @@ game.Players.LocalPlayer.Character.UpperTorso:Destroy()
 game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
 game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
 game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
+
+
+
+game.Players.LocalPlayer.Character.Head.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Head.Position.X,
+game.Players.LocalPlayer.Character.Head.Position.Y-10,
+game.Players.LocalPlayer.Character.Head.Position.Z)
+game.Players.LocalPlayer.Character.Head.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Head.Position.X,
+game.Players.LocalPlayer.Character.Head.Position.Y-10,
+game.Players.LocalPlayer.Character.Head.Position.Z)
+game.Players.LocalPlayer.Character.Head.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Head.Position.X,
+game.Players.LocalPlayer.Character.Head.Position.Y-10,
+game.Players.LocalPlayer.Character.Head.Position.Z)
