@@ -1,9 +1,9 @@
-game.Players.LocalPlayer.Character.Humanoid.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Humanoid.Position.X,
-game.Players.LocalPlayer.Character.Humanoid.Position.Y-10,
-game.Players.LocalPlayer.Character.Humanoid.Position.Z)
-game.Players.LocalPlayer.Character.Humanoid.CFrame = CFrame.new(game.Players.LocalPlayer.Character.Humanoid.Position.X,
-game.Players.LocalPlayer.Character.Humanoid.Position.Y-10,
-game.Players.LocalPlayer.Character.Humanoid.Position.Z)
+game.Players.LocalPlayer.Character.Humanoid.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X,
+game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Y-10,
+game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X,
+game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Y-10,
+game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)
 
 
 local plr = game.Players.LocalPlayer
